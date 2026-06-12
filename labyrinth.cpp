@@ -304,7 +304,7 @@ int main(int argc, char* argv[])
 		PriorityQueue queue;
 
 		const int start_x = labyrinth[0].find(' ');
-		end_x = labyrinth[end_x].find(' ');
+		end_x = labyrinth[0].find(' ');
 		end_y = labyrinth.size() - 1;
 
 		labyrinth[0][start_x] = '+';
